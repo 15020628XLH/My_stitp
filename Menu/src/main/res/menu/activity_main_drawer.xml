@@ -22,7 +22,7 @@
             android:title="设置" />
     </group>
 
-    <group android:checkableBehavior="all">
+    <group android:checkableBehavior="none">
         <menu>
             <item
                 android:id="@+id/nav_share"
@@ -31,7 +31,7 @@
         </menu>
     </group>
 
-    <group>
+    <group android:checkableBehavior="none">
         <menu>
             <item
             android:id="@+id/nav_send"

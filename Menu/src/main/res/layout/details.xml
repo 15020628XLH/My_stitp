@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="5dp"
-    android:text="Hello World!" />
 
     <Button
-        android:id="@+id/button_bavk"
+        android:id="@+id/button_back"
         android:layout_width="match_parent"
-        android:layout_height="200px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:layout_marginTop="10dp"
-        android:textSize="75px"
-        android:layoutDirection="inherit"
         android:background="@drawable/bt_shape"
-        android:text="返回上一级" />
+        android:layoutDirection="inherit"
+        android:text="@string/go_back"
+        android:textSize="30sp" />
+
 
 </LinearLayout>
